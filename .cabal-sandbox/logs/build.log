@@ -1,0 +1,89 @@
+
+package: ansi-terminal-0.6.2.2
+os: linux
+arch: x86_64
+compiler: ghc-7.10.2
+client: cabal-install-1.22.6.0
+flags: -example
+dependencies: unix-2.7.1.0 base-4.8.1.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: ansi-wl-pprint-0.6.7.3
+os: linux
+arch: x86_64
+compiler: ghc-7.10.2
+client: cabal-install-1.22.6.0
+flags: newbase -example
+dependencies: base-4.8.1.0 ansi-terminal-0.6.2.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: optparse-applicative-0.11.0.2
+os: linux
+arch: x86_64
+compiler: ghc-7.10.2
+client: cabal-install-1.22.6.0
+dependencies: transformers-compat-0.4.0.4 transformers-0.4.2.0
+              process-1.2.3.0 base-4.8.1.0 ansi-wl-pprint-0.6.7.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: regex-tdfa-rc-1.1.8.3
+os: linux
+arch: x86_64
+compiler: ghc-7.10.2
+client: cabal-install-1.22.6.0
+flags: base4
+dependencies: regex-base-0.93.2 parsec-3.1.9 mtl-2.2.1
+              ghc-prim-0.4.0.0 containers-0.5.6.2 bytestring-0.10.6.0
+              base-4.8.1.0 array-0.5.1.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: tagged-0.8.1
+os: linux
+arch: x86_64
+compiler: ghc-7.10.2
+client: cabal-install-1.22.6.0
+dependencies: template-haskell-2.10.0.0 base-4.8.1.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: tasty-0.10.1.2
+os: linux
+arch: x86_64
+compiler: ghc-7.10.2
+client: cabal-install-1.22.6.0
+dependencies: unbounded-delays-0.1.0.9 time-1.5.0.1 tagged-0.8.1
+              stm-2.4.4 regex-tdfa-rc-1.1.8.3 optparse-applicative-0.11.0.2
+              mtl-2.2.1 deepseq-1.4.1.1 containers-0.5.6.2 base-4.8.1.0
+              async-2.0.2 ansi-terminal-0.6.2.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: tasty-hunit-0.9.2
+os: linux
+arch: x86_64
+compiler: ghc-7.10.2
+client: cabal-install-1.22.6.0
+dependencies: tasty-0.10.1.2 base-4.8.1.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: unbounded-delays-0.1.0.9
+os: linux
+arch: x86_64
+compiler: ghc-7.10.2
+client: cabal-install-1.22.6.0
+dependencies: base-4.8.1.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried

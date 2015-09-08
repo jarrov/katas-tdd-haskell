@@ -1,0 +1,5 @@
+Test suite test: RUNNING...
+Usage: test [-p|--pattern ARG] [-t|--timeout ARG] [-l|--list-tests]
+            [-j|--num-threads ARG] [-q|--quiet] [--hide-successes] [--color ARG]
+Test suite test: FAIL
+Test suite logged to: dist/test/FizzBuzz-0.1.0.0-test.log
